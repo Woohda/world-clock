@@ -1,0 +1,46 @@
+[
+  {
+    "city": "London",
+    "timezone": "Europe/London"
+  },
+  {
+    "city": "Paris",
+    "timezone": "Europe/Paris"
+  },
+  {
+    "city": "Athens",
+    "timezone": "Europe/Athens"
+  },
+  {
+    "city": "Moscow",
+    "timezone": "Europe/Moscow"
+  },
+  {
+    "city": "Dubai",
+    "timezone": "Asia/Dubai"
+  },
+  {
+    "city": "Almaty",
+    "timezone": "Asia/Almaty"
+  },
+  {
+    "city": "Krasnoyarsk",
+    "timezone": "Asia/Krasnoyarsk"
+  },
+  {
+    "city": "Tokyo",
+    "timezone": "Asia/Tokyo"
+  },
+  {
+    "city": "Sydney",
+    "timezone": "Australia/Sydney"
+  },
+  {
+    "city": "New York",
+    "timezone": "America/New_York"
+  },
+  {
+    "city": "Los Angeles",
+    "timezone": "America/Los_Angeles"
+  }
+]

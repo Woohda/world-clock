@@ -1,0 +1,56 @@
+.container {
+  width: 250px;
+  height: 335px;
+  background: white;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1rem;
+}
+
+.close-button {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  justify-self: end;
+}
+
+.close-button::before,
+.close-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 2px;
+  background-color: #333;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.close-button::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-button::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.2);
+  border: 2px solid #ccc;
+}
+
+.close-button:hover::before,
+.close-button:hover::after {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.close-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+}

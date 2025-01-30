@@ -1,0 +1,26 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hour,
+.minute,
+.second {
+  stroke: black;
+  stroke-width: 3;
+  transform-origin: 100px 100px;
+}
+
+.minute {
+  stroke-width: 2;
+  animation-duration: 2s;
+}
+
+.second {
+  stroke: red;
+  stroke-width: 1;
+  animation-duration: 1s;
+}
