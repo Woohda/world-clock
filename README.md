@@ -43,7 +43,7 @@ npm run start
 ```
 #### or
 ```bash
-yarn dev
+yarn start
 ```
 ## 📂 Структура проекта
 ```
